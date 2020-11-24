@@ -22,7 +22,7 @@ const main = async () => {
   app.use(cors({ origin: process.env.CLIENT_HOST }));
   console.info(`INFO: CORS configured to allow access from ${process.env.CLIENT_HOST}`);
 
-  // logs more if in development
+  // Set up logger - logs more if NODE_ENV is development
   const logSetting = process.env.NODE_ENV === 'production' ? 'tiny' : 'dev';
   app.use(morgan(logSetting));
   console.info(`INFO: Logger started in ${logSetting} mode`);
