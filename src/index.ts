@@ -20,7 +20,7 @@ const main = async () => {
   // logs more if in development
   const logSetting = process.env.NODE_ENV === 'production' ? 'tiny' : 'dev';
   app.use(morgan(logSetting));
-  console.log(`Logging started in ${logSetting} mode`);
+  console.info(`Logger started in ${logSetting} mode`);
 };
 
 main();
