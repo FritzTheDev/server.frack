@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Frederick Johnson <fritzj96@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node dist/index.ts"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "envalid": "^6.0.2",
