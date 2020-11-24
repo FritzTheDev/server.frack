@@ -1,5 +1,7 @@
+# Built Code
+dist/
 # Third-Party Modules
-node_modules
+node_modules/
 # Environment Variables
 .env
 # Eslint Cache
