@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Frederick Johnson <fritzj96@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "envalid": "^6.0.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
 }
