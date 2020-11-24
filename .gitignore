@@ -2,3 +2,5 @@
 node_modules
 # Environment Variables
 .env
+# Eslint Cache
+.eslintcache
