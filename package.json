@@ -1,0 +1,7 @@
+{
+  "name": "server.slack-off",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Frederick Johnson <fritzj96@gmail.com>",
+  "license": "MIT"
+}
