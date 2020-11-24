@@ -6,6 +6,8 @@ import { configureEnv } from './utils/configure-env';
 import morgan from 'morgan';
 
 const main = async () => {
+
+  /* Initial Setup */
   // load + validate environment variables
   configureEnv();
   // connect to the database
@@ -15,7 +17,7 @@ const main = async () => {
   // create & configure expresss app
   const app = Express();
 
-  // global middleware
+  /* Global Middleware */
   // logs the cors configuration in case you forget to set it correctly.
   app.use(cors({ origin: process.env.CLIENT_HOST }));
   console.info(`INFO: CORS configured to allow access from ${process.env.CLIENT_HOST}`);
